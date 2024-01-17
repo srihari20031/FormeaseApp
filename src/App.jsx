@@ -11,7 +11,7 @@ function App() {
      <Router>
       <Routes>
         <Route index element={<Home />}/>
-        <Route to="/exam/:id" element={<ExamDetails />}/>
+        <Route path="/exam/:id" element={<ExamDetails />}/>
       </Routes>
      </Router>
     </>

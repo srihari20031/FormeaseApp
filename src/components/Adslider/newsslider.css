@@ -1,0 +1,56 @@
+.image-container {
+  max-width: 1200px;
+  width: 100%;
+  position: relative;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  margin: 40px auto;
+  margin-bottom: 35px;
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px 0px,
+    rgba(0, 0, 0, 0.3) 8px 8px 16px -8px;
+}
+
+.sliders {
+  display: block;
+  position: absolute;
+  background-color: white;
+  object-fit: cover;
+  overflow: hidden;
+  top: 20;
+  bottom: 20;
+  border: none;
+  opacity: 0.75;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: background-color 100ms ease-in-out;
+}
+
+.sliders:hover {
+  opacity: 0.5;
+}
+
+.sliders > * {
+  stroke: rgb(240, 225, 225);
+  fill: #514f4f;
+  width: 1.5rem;
+  height: 1.7rem;
+}
+
+.title {
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 0 364px;
+}
+
+.title h4:last-child {
+  color: #246bfd;
+}

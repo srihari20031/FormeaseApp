@@ -1,56 +1,62 @@
+
+
 .navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 400px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-      rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  }
-  
-  .navbar img:nth-child(1) {
-    width: 120px;
-    height: 120px;
-  }
-  
-  .navbar img:last-child{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-  }
-  
-  .navbar a {
-    font-size: 15px;
-    margin: 0;
-  }
-  
-  .navbar .bell {
-    font-size: 20px;
-    color: rgb(5, 127, 241);
-  }
-  
-  .navbar .searchbar {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    height: auto;
-    font-size: 20px;
-    color: rgba(152, 150, 150, 0.874);
-    padding: 5px;
-    padding-right: 30px;
-    border-radius: 20px;
-    outline: 1px solid rgb(67, 158, 244);
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    
-  }
-  
-  .navbar .searchbar input {
-    outline: none;
-    border: 0;
-  }
-  
-  .navbar .searchbar input::placeholder{
-    color: #c6c1c1;
-    font-size: 11px;
-  }
-  
-  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  gap: 1rem;
+  align-items: center;
+  padding: 0 300px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background-color: rgba(254, 254, 255, 255);
+}
+
+
+
+.navbar img:nth-child(1) {
+  margin-bottom: 6px;
+  width: 90px;
+  height: 90px;
+}
+
+.navbar img:last-child {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.navbar a {
+  font-size: 15px;
+  margin: 0;
+}
+
+.navbar .bell {
+  font-size: 20px;
+  color: rgb(5, 127, 241);
+}
+
+.navbar .searchbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: auto;
+  font-size: 20px;
+  color: rgba(152, 150, 150, 0.874);
+  padding: 5px;
+  padding-right: 30px;
+  border-radius: 20px;
+  outline: 1px solid rgb(67, 158, 244);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.navbar .searchbar input {
+  background-color: inherit;
+  outline: none;
+  border: 0;
+}
+
+.navbar .searchbar input::placeholder {
+  color: #c6c1c1;
+  font-size: 11px;
+}

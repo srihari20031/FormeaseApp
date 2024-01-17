@@ -1,0 +1,79 @@
+.detailedInfo {
+  margin-top: 40px;
+  padding: 0 340px;
+}
+
+.back {
+  display: flex;
+  gap: 10px;
+}
+
+.grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  gap: 20px;
+  
+}
+.first-grid, .second-grid, .third-grid {
+  background-color: rgba(254, 254, 255, 255);
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 4px 0px;
+  border-radius: 20px;
+}
+
+.top-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.inner-div img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 6px;
+  float: right;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.scheduled {
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+
+}
+
+.schedule-icons {
+  color: rgba(37, 106, 253, 255);
+  font-size: 16px;
+}
+
+.bottom-div {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-div button {
+  all: unset;
+  color: white;
+  font-size: 12px;
+  background: rgba(37, 106, 253, 255);
+  padding: 14px;
+  border-radius: 50px;
+  border: none;
+}
+
+

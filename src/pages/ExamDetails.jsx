@@ -1,8 +1,19 @@
+import DetailedInfo from "../components/DetailedInfo/DetailedInfo";
+import Footer from "../components/Footer/Footer";
+import Navbar from "../components/Navbar/Navbar";
+
 
 const ExamDetails = () => {
   return (
-    <div>ExamDetails</div>
-  )
-}
+    <div>
+      <Navbar />
+      <div className="examInfo">
+        <DetailedInfo />
+      </div>
 
-export default ExamDetails
+      <Footer />
+    </div>
+  );
+};
+
+export default ExamDetails;

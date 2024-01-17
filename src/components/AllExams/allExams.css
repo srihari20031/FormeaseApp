@@ -1,0 +1,30 @@
+.title {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 364px;
+  }
+  
+  .title h4:last-child {
+    color: #246bfd;
+  }
+
+.examCategories{
+    display: flex;
+    padding: 0 364px;
+    align-items: center;
+    gap: 20px;
+    color: #246bfd;
+    
+}
+  
+.examCategories h4{
+    border: 1px solid #246bfd;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.examCategories h4:first-child{
+    color: white;
+    background-color: #246bfd;
+}

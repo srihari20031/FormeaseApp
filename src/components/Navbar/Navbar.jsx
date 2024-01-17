@@ -1,14 +1,13 @@
-import Logo from "../../assets/img/FormeaseLogo.png";
+import Logo from "../../assets/img/FormeaseLogos.png";
 import Profile from "../../assets/img/Profile.jpg";
 import { GoBell } from "react-icons/go";
 import { CiSearch } from "react-icons/ci";
-import "./navbar.css"
-
+import "./navbar.css";
 
 const Navbar = () => {
   return (
-    
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <div className="outer-div">
+      <nav className="navbar">
         <img src={Logo} alt="" />
         <a className="navbar-brand" href="#">
           Home
@@ -26,13 +25,13 @@ const Navbar = () => {
           Contact Us
         </a>
         <div className="searchbar">
-            <CiSearch />
-            <input type="text" placeholder="Search exams here"/>
+          <CiSearch />
+          <input type="text" placeholder="Search exams here" />
         </div>
         <GoBell className="bell" />
         <img src={Profile} alt="" />
       </nav>
-    
+    </div>
   );
 };
 
